@@ -2,6 +2,7 @@ import os
 import datetime
 import shutil
 import time
+import fnmatch
 
 def get_files():
 	files = []
@@ -47,6 +48,13 @@ def get_info(file):
 		print(stamp2)
 		print(get_time)
 
+def check file(():
+	for file in os.listdir('.'):
+    	if fnmatch.fnmatch(file, '*.txt'):
+        	print(file)
+	#alt methode
+	if if m.endswith('.txt')
+		print(file)
 if __name__ == '__main__':
 	get_all_files_dir()
 	get_info(get_files())
