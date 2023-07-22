@@ -55,6 +55,7 @@ def check file(():
 	#alt methode
 	if if m.endswith('.txt')
 		print(file)
+
 if __name__ == '__main__':
 	get_all_files_dir()
 	get_info(get_files())
