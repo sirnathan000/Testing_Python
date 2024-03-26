@@ -58,3 +58,12 @@ print(' \n\n\n\n\n')
 print(f'{headers[0]}\t\t{headers[1]}')
 print(f'{"-"*len(headers[0])}\t\t{"-"*len(headers[1])}')
 print(f'{name}\t\t{shares}')
+
+
+
+#fields = line.split(',')
+#name = fields[0].strip('"')
+#price = float(fields[1])
+#change = float(fields[4])
+#if change < 0:
+#	print(f'{name:>10s} {price:>10.2f} {change:>10.2f}')
